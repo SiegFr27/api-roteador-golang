@@ -1,0 +1,21 @@
+# API Router em Go
+
+Projeto simples de API REST desenvolvido em Go utilizando `gorilla/mux` para roteamento e `godotenv` para variáveis de ambiente.
+
+## Tecnologias utilizadas
+
+- Go
+- Gorilla Mux
+- Godotenv
+
+## Estrutura do projeto
+
+Roteador/
+│── .env
+│── go.mod
+│── go.sum
+│── main.go
+│── routes/
+│   └── routes.go
+│── handlers/
+│   └── user.go
